@@ -25,8 +25,8 @@ cal.title("CALCULATOR")
 operator = ""
 text_input = StringVar()
 
-Entry(cal, font=("arial", 20, "bold"), textvariable=text_input, bd=30, insertwidth=4,
-      bg="grey", justify="right").grid(columnspan=4)
+Entry(cal, font=("Century", 20, "bold"), textvariable=text_input, bd=30, insertwidth=4,
+      bg="white", justify="right").grid(columnspan=4)
 
 Button(cal, padx=16, pady=16, bd=8, fg="black", font=("arial", 20, "bold"),
        text="7", bg="powder blue", command=lambda: btnClick(7)).grid(row=1, column=0)
