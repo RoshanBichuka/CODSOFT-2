@@ -1,5 +1,4 @@
 from tkinter import *
-from tkinter import StringVar
 
 
 def btnClick(numbers):
